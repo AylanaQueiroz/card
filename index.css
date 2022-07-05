@@ -1,4 +1,23 @@
-fieldset{
-    display: block;
-      
+
+body{
+    background: rgb(165, 140, 186);      
 }
+
+.FAQ{
+    width: 400px;
+    height: 400px;
+    background: white;
+    display: inline-block;
+    margin-left: 35%;
+    margin-top: 45px;
+}
+
+
+h1{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center; 
+}
+
+
