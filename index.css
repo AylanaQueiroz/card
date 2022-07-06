@@ -1,42 +1,56 @@
+body {
+    background-color: #8b66e9;
+    font-family: 'Open Sans', sans-serif;
+}
 
-.bg{
+.card {
+    background-color: white;
+    min-height: 200px;
+    display: flex;
+    width: 60%;
+    right: 0;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    padding: 65px;
+    top:10%;
+    border-radius: 20px;
+    bottom: 10%;
+}
+
+.illustration-woman {
     position: relative;
-    display: inline-block;
-    
-    
+    margin-left: -10%;
+    width: 100%;
+    left: -103px;
+    top: 30%;
 }
 
-.mulher{
-    position: absolute;
-    display: inline-block;
-    left: 16%;
-    top:20%;
+.illustration-box {
+    position: relative;
+    margin-left: -45%;
+    top: -25%;
 }
 
-.box{
-    position: absolute;
-    display: inline-block;
-    left: 15%;
-    top: 35%
-   
+.bg-photo {
+    position: relative;
+    max-width: fit-content;
+}
+.photo-side {
+    width: 50%;
 }
 
-h1{
-    text-transform: uppercase;
+.faq-side {
+    width: 50%;
+}
+
+h1 {
     font-weight: bold;
-    
+    padding-bottom: 10px;
 }
 
-ul{
-    display: inline-block;
-    margin-left: 40%;
-    width: 40%;
+.arrow {
     position: relative;
-    margin-top: 10%;
-    vertical-align: ;
-}
-
-
-ul, box {
-    display: inline-block;
+    left:90%;
+    top:-4%;
 }
