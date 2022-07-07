@@ -12,45 +12,57 @@ body {
     left: 0;
     margin: auto;
     position: absolute;
-    padding: 65px;
-    top:10%;
+    padding: 25px;
+    top:0%;
     border-radius: 20px;
-    bottom: 10%;
+    bottom: 0%;
+    max-height: 55%;
 }
 
-.illustration-woman {
-    position: relative;
-    margin-left: -10%;
-    width: 100%;
-    left: -103px;
-    top: 30%;
-}
-
-.illustration-box {
-    position: relative;
-    margin-left: -45%;
-    top: -25%;
-}
-
-.bg-photo {
-    position: relative;
-    max-width: fit-content;
-}
 .photo-side {
     width: 50%;
 }
 
+.background-illustration {
+    position: relative;
+    margin-top: -100%;
+    margin-left: -201%;
+}
+
+.woman-illustration {
+    position: absolute;
+    margin-left: -30%;
+    width: 55%;
+    margin-top: -1%;
+}
+
+.box-illustration {
+    margin-top: 15%;
+    position: absolute;
+    margin-left:-32%
+}
+
 .faq-side {
     width: 50%;
+    margin: auto;
 }
 
 h1 {
     font-weight: bold;
-    padding-bottom: 10px;
+    padding-bottom: 50px;
+    font-size: 30px;
+}
+
+h2 {
+    text-decoration: underline;
 }
 
 .arrow {
     position: relative;
     left:90%;
     top:-4%;
+}
+
+p {
+    display: none;
 }
