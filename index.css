@@ -18,8 +18,6 @@ body {
     justify-content: center;
     overflow: hidden;
     
-    
-    
     /* right: 0;
     left: 0;
     position: absolute;
@@ -84,8 +82,6 @@ body {
     margin-top: 2em;
 }
 
-
-
 h1 {
     font-weight: bold;
     padding-bottom: 50px;
@@ -96,12 +92,30 @@ hr {
     border: 0.2px solid #DDD;
 }
 
-.arrow {
-    position: relative;
-    left:90%;
-    top:-4%;
+.button {
+    position: absolute;
+    margin-top: -1%;
+    margin-left: 26%;
+    cursor: pointer;
+    border:none;      
 }
 
-p {
-    display: none;
+.active, .button:hover {
+    background
 }
+
+.hide-p {
+        padding: 0 18px;
+        background-color: white;
+        display: none;
+        overflow: hidden;
+}    
+
+.testeesconderp {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
+
+
